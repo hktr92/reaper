@@ -1,0 +1,5 @@
+#__nuxt, #__layout {
+    display: flex;
+    flex: 1 0 auto;
+    min-height: 100vh;
+}

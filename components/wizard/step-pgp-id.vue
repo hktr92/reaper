@@ -3,8 +3,8 @@
     <div class="welcome-window align-self-center">
       <b-card title="GPG Configuration">
         <b-card-text>
-          Ripasso uses GPG to encrypt your stored passwords.<br>
-          We retrieved the list of your GPG keys, so choose one.
+          Ripasso uses PGP to encrypt your stored passwords.<br>
+          We retrieved the list of your PGP keys, so choose one.
         </b-card-text>
 
         <b-form-select v-model="selected" :options="options" />
@@ -26,7 +26,7 @@
 <script lang="ts">
 import Vue from 'vue'
 export default Vue.extend({
-  name: 'StepGpgId',
+  name: 'StepPgpId',
   data (): any {
     return {
       selected: null,

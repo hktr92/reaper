@@ -1,6 +1,6 @@
 {
   "package": {
-    "productName": "reaper-ui",
+    "productName": "reaper",
     "version": "0.1.0"
   },
   "build": {
@@ -13,7 +13,7 @@
     "bundle": {
       "active": true,
       "targets": "all",
-      "identifier": "dev.hktr92.reaper-ui",
+      "identifier": "dev.hktr92.reaper",
       "icon": [
         "icons/32x32.png",
         "icons/128x128.png",
@@ -53,7 +53,7 @@
     },
     "windows": [
       {
-        "title": "Reaper UI",
+        "title": "Reaper",
         "width": 1360,
         "height": 768,
         "resizable": true,

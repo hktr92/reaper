@@ -1,7 +1,8 @@
 <template>
   <!--  <WizardWelcome />-->
   <!--  <WizardStepGpgId />-->
-  <Dashboard />
+  <!--  <WizardStepGitRepo />-->
+  <PasswordList />
 </template>
 
 <script lang="ts">

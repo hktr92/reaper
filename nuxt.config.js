@@ -7,7 +7,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Reaper UI',
+    title: 'Reaper',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -55,7 +55,12 @@ export default {
     '@nuxtjs/pwa',
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
-    '@nuxtjs/color-mode'
+    '@nuxtjs/color-mode',
+    ['@nuxtjs/toast', {
+      keepOnHover: true,
+      iconPack: 'fontawesome',
+      duration: 2500
+    }]
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios

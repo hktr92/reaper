@@ -28,7 +28,8 @@
       "@nuxt/types",
       "@nuxtjs/axios",
       "@nuxt/content",
-      "@nuxtjs/color-mode"
+      "@nuxtjs/color-mode",
+      "@nuxtjs/toast"
     ]
   },
   "exclude": [

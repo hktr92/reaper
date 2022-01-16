@@ -206,7 +206,7 @@ export default Vue.extend({
     viewPassword (item: StoredPassword): void {
       console.log(item)
     },
-    async deletePassword (item: StoredPassword): void {
+    async deletePassword (item: StoredPassword): Promise<void> {
       const value = await this.$bvModal.msgBoxConfirm(
         'Are you sure you want to remove this password? It will be gone forever!',
         {
